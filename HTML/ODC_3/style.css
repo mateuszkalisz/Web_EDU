@@ -31,6 +31,8 @@ font-size: 20px;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 70px;
 	width: 600px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 #zegar
@@ -38,4 +40,83 @@ font-size: 20px;
 	float: left;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 70px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.tile1
+{
+	float: left;
+	background-color: #3095d3;
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+
+}
+.tile2
+{
+	float: left;
+	background-color: #666666;
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+}
+.tile3
+{
+	float: left;
+	background-color: #93c748;
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+}
+
+.tile4
+{
+	background-color: #ee5a32;
+	width: 480px;
+	margin: 10px;
+	height: 142px;
+}
+
+.tile5
+{
+	background-color: #666666;
+	width: 480px;
+	margin: 10px;
+	height: 304px;
+}
+
+.yt
+{
+	float: left;
+	background-color: #d94348;
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+}
+
+.fb
+{
+	float: left;
+	background-color: #4668b3;
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+}
+
+.gplus
+{
+	float: left;
+	background-color: #d95333;
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+}
+
+.tw
+{
+	float: left;
+	background-color: #3095d3;
+	margin: 10px;
+	width: 105px;
+	height: 142px;
 }
