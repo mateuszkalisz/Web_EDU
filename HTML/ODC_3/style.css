@@ -56,6 +56,12 @@ font-size: 20px;
 	text-align: center;
 
 }
+
+.tile1:hover
+{
+	background-color: #2084c2;
+}
+
 .tile2
 {
 	float: left;
@@ -65,6 +71,12 @@ font-size: 20px;
 	height: 142px;
 	text-align: center;
 }
+
+.tile2:hover
+{
+	background-color: #555555;
+}
+
 .tile3
 {
 	float: left;
@@ -75,13 +87,21 @@ font-size: 20px;
 	text-align: center;
 }
 
+.tile3:hover
+{
+	background-color: #82b637;
+}
+
 .tile4
 {
 	background-color: #ee5a32;
-	width: 480px;
+	width: 420px;
 	margin: 10px;
-	height: 142px;
+	height: 82px;
 	text-align: center;
+	font-size: 26px;
+	padding: 30px;
+	line-height: 150%;
 }
 
 .tile5
@@ -104,6 +124,12 @@ font-size: 20px;
 	text-align: center;
 }
 
+.yt:hover
+{
+	background-color: #c83237;
+}
+
+
 .fb
 {
 	float: left;
@@ -113,6 +139,11 @@ font-size: 20px;
 	height: 142px;
 	font-size: 76px;
 	text-align: center;
+}
+
+.fb:hover
+{
+	background-color: #3557a2;
 }
 
 .gplus
@@ -126,6 +157,11 @@ font-size: 20px;
 	text-align: center;
 }
 
+.gplus:hover
+{
+	background-color: #c84222;
+}
+
 .tw
 {
 	float: left;
@@ -135,4 +171,9 @@ font-size: 20px;
 	height: 142px;
 	font-size: 76px;
 	text-align: center;
+}
+
+.tw:hover
+{
+	background-color: #2084c2;
 }
