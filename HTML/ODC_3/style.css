@@ -13,10 +13,11 @@ font-size: 20px;
 	margin-right: auto;
 }
 
-#rectangle
+.rectangle
 {
 	width: 960;
 	margin: 20px;
+	text-align: center;
 }
 
 .square
@@ -33,6 +34,7 @@ font-size: 20px;
 	width: 600px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	text-align: left;
 }
 
 #zegar
@@ -42,6 +44,7 @@ font-size: 20px;
 	font-size: 70px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	text-align: left;
 }
 .tile1
 {
@@ -50,6 +53,7 @@ font-size: 20px;
 	margin: 10px;
 	width: 230px;
 	height: 142px;
+	text-align: center;
 
 }
 .tile2
@@ -59,6 +63,7 @@ font-size: 20px;
 	margin: 10px;
 	width: 230px;
 	height: 142px;
+	text-align: center;
 }
 .tile3
 {
@@ -67,6 +72,7 @@ font-size: 20px;
 	margin: 10px;
 	width: 230px;
 	height: 142px;
+	text-align: center;
 }
 
 .tile4
@@ -75,6 +81,7 @@ font-size: 20px;
 	width: 480px;
 	margin: 10px;
 	height: 142px;
+	text-align: center;
 }
 
 .tile5
@@ -83,6 +90,7 @@ font-size: 20px;
 	width: 480px;
 	margin: 10px;
 	height: 304px;
+	text-align: center;
 }
 
 .yt
@@ -92,6 +100,8 @@ font-size: 20px;
 	margin: 10px;
 	width: 105px;
 	height: 142px;
+	font-size: 76px;
+	text-align: center;
 }
 
 .fb
@@ -101,6 +111,8 @@ font-size: 20px;
 	margin: 10px;
 	width: 105px;
 	height: 142px;
+	font-size: 76px;
+	text-align: center;
 }
 
 .gplus
@@ -110,6 +122,8 @@ font-size: 20px;
 	margin: 10px;
 	width: 105px;
 	height: 142px;
+	font-size: 76px;
+	text-align: center;
 }
 
 .tw
@@ -119,4 +133,6 @@ font-size: 20px;
 	margin: 10px;
 	width: 105px;
 	height: 142px;
+	font-size: 76px;
+	text-align: center;
 }
