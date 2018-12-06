@@ -107,10 +107,11 @@ font-size: 20px;
 .tile5
 {
 	background-color: #666666;
-	width: 480px;
+	width: 420px;
 	margin: 10px;
-	height: 304px;
-	text-align: center;
+	height: 244px;
+	text-align: justify;
+	padding: 30px;
 }
 
 .yt
@@ -176,4 +177,28 @@ font-size: 20px;
 .tw:hover
 {
 	background-color: #2084c2;
+}
+
+a.tilelink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 230px;
+	height: 142px;
+}
+
+a.sociallink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 105px;
+	height: 142px;
+}
+
+a.tilelinkhtml5
+{
+	color: #ffffff;
+	text-decoration: none;
 }
