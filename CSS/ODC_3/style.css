@@ -9,30 +9,28 @@ body
 
 .wrapper
 {
-	wdth: 100%;
+	width: 100%;
 }
 
 .header
-
 {
-	width: 100%;
+	width:100%;
 	padding: 40px 0;
 }
 
 .logo
 {
-	width:450px;
+	width: 450px;
 	font-size: 48px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 20px;
 }
 
 .nav
-{
-	background-color: #c34f4f;
-	padding: 10px 0;
+{ 
 	width: 100%;
+	padding: 10px 0;
+	background-color: #c34f4f;
 	text-align: center;
 	border-top: 1px solid #751b1b;
 	border-bottom: 1px solid #751b1b;
@@ -40,33 +38,32 @@ body
 
 .content
 {
-	padding-top: 20px;
+	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 1000px;
 	text-align: justify;
+	padding-top: 10px;
 }
 
 .socials
 {
-	background-color: #292929;
+	width:100%;
 	text-align: center;
-	width: 100%;
+	background-color: #292929;
 }
 
 .socialdivs
 {
-	width:1000px;
+	width: 1000px;
 	margin-left: auto;
-	marin-right: auto;
+	margin-right: auto;
 }
 
 .fb
 {
 	width: 250px;
 	height: 155px;
-	float: left;
-	font-size: 72px;
+	float:left;
 }
 
 .fb:hover
@@ -78,8 +75,7 @@ body
 {
 	width: 250px;
 	height: 155px;
-	float: left;
-	font-size: 72px;
+	float:left;
 }
 
 .yt:hover
@@ -91,8 +87,7 @@ body
 {
 	width: 250px;
 	height: 155px;
-	float: left;
-	font-size: 72px;
+	float:left;
 }
 
 .tw:hover
@@ -104,9 +99,7 @@ body
 {
 	width: 250px;
 	height: 155px;
-	float: left;
-	font-size: 72px;
-	
+	float:left;
 }
 
 .gplus:hover
@@ -158,7 +151,7 @@ ol > li
 
 ol > li:first-child
 {
-	border-left:  1px dashed #751b1b;
+	border-left: 1px dashed #751b1b;
 }
 
 ol > li:hover
@@ -167,6 +160,38 @@ ol > li:hover
 }
 
 ol > li:hover > a
+{
+	color: #451717;
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+}
+
+ol > li:hover > ul
+{
+	display: block;
+}
+
+ol > li > ul > li
+{
+	background-color:#cf6969;
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed #751b1b;
+}
+
+ol > li > ul > li:hover
+{
+	background-color: #c34f4f;
+}
+
+ol > li > ul > li:hover > a
 {
 	color: #451717;
 }
