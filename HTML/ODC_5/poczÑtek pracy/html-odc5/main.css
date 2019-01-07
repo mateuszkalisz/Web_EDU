@@ -83,6 +83,16 @@ h1
 	display: inline-block;
 }
 
+.author a
+{
+	opacity: 0.9;
+}
+
+.author a:hover
+{
+	opacity: 1;
+}
+
 figure
 {
 	margin: 8px;
@@ -93,4 +103,20 @@ figcaption
 {
 	margin-top: 8px;
 	padding: 0;
+}
+
+.entries
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 950px;
+	padding-top: 10px;
+	padding-bottom: 80px;
+	margin-top: 40px;
+}
+
+#newest
+{
+	background-color: #191d21;
 }
