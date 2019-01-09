@@ -19,7 +19,7 @@ h1.logo
 	margin-bottom: 40px;
 }
 
-nav
+#topnav
 {
 	background-color: #1c74b2;
 	text-align: center;
@@ -286,4 +286,25 @@ h2
 	font-weight: 400;
 	color: #39a5f1;
 	margin-bottom: 30px;
+}
+
+.east ul
+{
+	padding-left: 20px;
+}
+
+.east ul>li
+{
+	margin-bottom: 5px;
+}
+
+.east img
+{
+	margin-top: 15px;
+}
+
+.entrytxt a
+{
+	text-decoration: none;
+	color: #39a5f1;
 }
