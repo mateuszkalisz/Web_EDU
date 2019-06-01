@@ -1,0 +1,55 @@
+body{
+	background-color: gray;
+}
+
+#container{
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+font-family: 'Lato', sans-serif;
+}
+
+#logo{
+color: white;
+margin-top: 20px;
+font-size: 44px;
+letter-spacing: 3px;
+font-weight: 900;
+}
+
+#menu{
+background-color: #303030;
+color: white;
+margin-top: 20px;
+padding: 10px;
+}
+
+#topbar{
+
+}
+
+#sidebar{
+float:left;
+}
+
+#content{
+float: left;
+}
+
+#footer{
+clear: both;
+}
+
+.option{
+	float: left;
+	min-width: 50px;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	border-right: 2px dotted gray;
+	opacity: 0.8;
+}
+
+.option:hover{
+	background-color: black;
+}
