@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Wybierz konfiguracje samochodu</h1>
+    </header>
+
+    <main>
+        <article>
+            <form action="" method="post">
+
+                <div class="row">
+                    <fieldset>
+
+                    <legend>Rodzaj nadwozia</legend>
+
+                <div>
+                    <label>
+                    <input name="carbody" type="radio" checked value="hatchback"> Hatchback
+                </label>
+                </div>
+                <div>
+                <label>
+                    <input name="carbody" type="radio" value="sedan"> Sedan
+                </label>
+                </div>
+                <div>
+                <label>
+                    <input name="carbody" type="radio" value="kombi"> Kombi
+                </label>
+                </div>
+
+                    </fieldset>
+                </div>
+
+                <div class="row">
+                        <label for="engine">Rodzaj silnika</label>
+                        <select name="engine" id="engine">
+                            <option value="1">
+                                silnik wysokoprężny
+                            </option>
+                            <option value="2" selected>
+                                silnik benzynowy
+                            </option>
+                            <option value="3">
+                                silnik elektryczny
+                            </option>
+                            <option value="4">
+                                silnik hybrydowy
+                            </option>
+                        </select>
+                </div>
+
+                <div class="row">
+
+                    <fieldset>
+                        <legend>Wyposażenie samochodu</legend>
+
+                        <div class="col">
+                                <div><label><input value="klimatyzacja" name="wyp[]" checked disabled type="checkbox">klimatyzacja</label></div>
+                                <div><label><input value="alufelgi" name="wyp[]" type="checkbox">alufelgi</label></div>
+                                <div><label><input value="nawigacja" name="wyp[]" type="checkbox">nawigacja</label></div>
+                                <div><label><input value="skorzanaTapicerka" name="wyp[]" type="checkbox">skórzana tapicerka</label></div>                           
+                        </div>
+
+                        <div class="col">
+                                <div><label><input value="tempomat" name="wyp[]" type="checkbox">tempomat</label></div>
+                                <div><label><input value="czujnikiParkowania" name="wyp[]" type="checkbox">czujniki parkowania</label></div>
+                                <div><label><input value="kamera" name="wyp[]" type="checkbox">kamera cofania</label></div>
+                                <div><label><input value="szyby" name="wyp[]" type="checkbox">przyciemniane szyby</label></div>
+                        </div>
+
+                    </fieldset>
+                </div>
+
+                <div class="row">
+                        <label for="choinka">Jaka choinka zapachowa?</label>
+                        <div style="margin-top: 10px;">
+                                <select name="choinka" id="choinka[]" multiple size="8">
+                                        <option value="k">
+                                            kokosowa
+                                        </option>
+                                        <option value="c" selected>
+                                            cytrynowa
+                                        </option>
+                                        <option value="t">
+                                            truskowkowa
+                                        </option>
+                                        <option value="b">
+                                            brzoskiwiowa
+                                        </option>
+                                    </select>
+                        </div>
+                </div>
+
+                <div class="row">
+                    <label>Imię <input placeholder="jak masz na imię?" type="text" name="imie"></label>
+                    <label>Hasło <input type="password" name="imie"></label>
+                    <label>Szukaj <input type="search" name="imie"></label>
+                </div>
+
+                <div class="row">
+                    <label> Ile kluczykow chcesz otrzymac?
+                        <input type="number" step="1" name="key">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label>
+                        <input type="submit" value="Zamawiam">
+                        <input type="button" value="Zamawiam2">
+                        <button type="button">Zamawiam3</button>
+                    </label>
+                </div>
+
+            </form>
+        </article>
+    </main>
+</body>
+</html>
